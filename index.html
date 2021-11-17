@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <title>롯데이네오스화학</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <meta name="keywords" content="롯데이네오스화학" />
+        <meta name="description" content="롯데이네오스화학 공식 웹 사이트" />
+        <meta name="author" content="동인성" />
+        <meta property="og:title" content="롯데이네오스화학" />
+        <meta property="og:keywords" content="롯데이네오스화학" />
+        <meta property="og:description" content="롯데이네오스화학 공식 웹 사이트" />
+        <meta property="og:url" content="http://www.lotteineos.com" />
+        <meta property="og:image" content="http://www.lotteineos.com" />
+        <link href="css/common.css" rel="stylesheet" />
+        <link href="css/index.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    </head>
+    
+    <body>
+        <div id="splash">
+            <div>
+                <img src="images/brading_20210322.png" alt="" />
+<!--
+                <div id="loading">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+-->
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                     style="margin: 30px auto; display: block"
+                     width="50" height="50" viewBox="0 0 50 50">
+                    <def>
+                        <style>
+                            @keyframes spin {
+                                0% {stroke-dasharray: 0px 139px;}
+                                100% {stroke-dasharray: 139px 139px;}
+                            }
+                            @keyframes spin2 {
+                                0% {transform: rotate(0deg);}
+                                100% {transform: rotate(360deg);}
+                            }
+                            
+                            #cir {
+                                cx: 25px; cy: 25px; r: 22px; stroke: red;
+                                stroke-width: 5px;
+                                fill: transparent;
+                                transform-origin: center;
+                                animation: spin 3s linear infinite alternate, 
+                                           spin2 1.5s linear infinite;
+                            }
+                        </style>
+                    </def>
+                    <circle id="cir"></circle>
+                </svg>
+            </div>
+        </div>
+        
+        <header>
+            <button type="button" id="topbtn"></button>
+            <h1>
+                <a href="index.html">
+                    <img src="images/brading_20210322.png" alt="롯데이네오스">
+                </a>
+            </h1>
+            <button id="ham" type="button">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+            <nav id="mmenu">
+                <div id="mmenutop">
+                    <div id="gnb">
+                        <a href="#">KOR</a>
+                        <span></span>
+                        <a href="#">ENG</a>
+                        <button id="mclose" type="button"></button>
+                    </div>
+                    <ul id="lnb">
+                        <li class="mmain">
+                            <a href="ceo.html">회사소개<span class="accbtn"></span></a>
+                            <ul class="msub">
+                                <li><a href="ceo.html">CEO 인사말</a></li>
+                                <li><a href="#">회사개요</a></li>
+                                <li><a href="#">비전&amp;철학</a></li>
+                                <li><a href="#">주요 연혁</a></li>
+                                <li><a href="#">Contact us</a></li>
+                            </ul>
+                        </li>
+                        <li class="mmain">
+                            <a href="product.html">제품<span class="accbtn"></span></a>
+                            <ul class="msub">
+                                <li><a href="product.html">제품안내</a></li>
+                                <li>
+                                    <a href="#">공정안내</a>
+                                    <ul class="mssub">
+                                        <li><a href="#">전체공정</a></li>
+                                        <li><a href="#">초산 공정</a></li>
+                                        <li><a href="#">초산비닐 공정</a></li>
+                                        <li><a href="#">일산화탄소 공정</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mmain">
+                            <a href="sus.html">지속가능경영<span class="accbtn"></span></a>
+                            <ul class="msub">
+                                <li><a href="sus.html">안전환경경영</a></li>
+                                <li><a href="#">준법경영</a></li>
+                                <li><a href="#">사이버 신문고</a></li>
+                            </ul>
+                        </li>
+                        <li class="mmain">
+                            <a href="recruit.html">인재채용<span class="accbtn"></span></a>
+                            <ul class="msub">
+                                <li><a href="recruit.html">인재상</a></li>
+                                <li><a href="#">직무소개</a></li>
+                                <li><a href="#">인사제도</a></li>
+                                <li><a href="#">복리후생</a></li>
+                                <li><a href="#">채용안내</a></li>
+                            </ul>
+                        </li>
+                        <li class="mmain">
+                            <a href="pr.html">홍보센터<span class="accbtn"></span></a>
+                            <ul class="msub">
+                                <li><a href="pr.html">롯데이네오스화학 소식</a></li>
+                                <li><a href="#">사회공헌</a></li>
+                                <li><a href="#">공시정보</a></li>
+                                <li><a href="#">역사관</a></li>
+                                <li><a href="#">홍보영상</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div id="mmenubot">
+                    <a href="#">e-Potal 시스템</a>
+                </div>
+            </nav>
+            <div id="mback"></div>
+        </header>
+        <section>
+            <div id="mainVisual" class="px">
+                <div class="slide">
+                    <div class="txtBox">
+                        <p class="slideBig">
+                            <span>Globak Top-tier</span>
+                            <br/>
+                            Acetyls Company
+                        </p>
+                        <p class="slideSmall">
+                            롯데이네오스화학이 세계 최고의
+                            <br class="hide-400"/>
+                            아세틸스 기업으로 도약합니다.
+                        </p>
+                    </div>
+                    <img src="images/vis01.png" alt="" />
+                </div>
+                <div class="slide">
+                    <div class="txtBox">
+                        <p class="slideBig">
+                            LOTTE INEOS
+                            <br/>
+                            CHEMICAL
+                        </p>
+                        <p class="slideSmall">
+                            나 자신을 위한 건강, 후손을 위한 환경, 우리를 위한 안전
+                            <br class="hide-400"/>
+                            HSE 지속가능 경영을 통해 100년의 역사를 새로 씁니다
+                        </p>
+                    </div>
+                    <img src="images/vis02.png" alt="" />
+                </div>
+            </div>
+            
+            <article>
+                <h3>롯데이네오스화학</h3>
+                <p class="h3sub">
+                    롯데이네오스화학은 1989년 영국의 BP사와의 합작 계약을 통해 설립되어 고부가가치 정밀 화학제품인 초산과 그 유도체인 VAM(초산비닐)을 생산하는 국내 유일의 기업입니다.
+                </p>
+                <div class="cen-600">
+                    <div class="numinfo">
+                        <p>
+                            1989년 설립된
+                            <br/>
+                            국내 유일의 초산생산 기업
+                        </p>
+                        <div>
+                            <span class="count" data="32">0</span>
+                            년
+                        </div>
+                    </div>
+                    <div class="numinfo">
+                        <p>
+                            자산총계
+                            <br/>
+                            (2020년 기준)
+                        </p>
+                        <div>
+                            <span class="count" data="5474">0</span>
+                            억
+                        </div>
+                    </div>
+                    <div class="numinfo">
+                        <p>
+                            매출총액
+                            <br/>
+                            (2020년 기준)
+                        </p>
+                        <div>
+                            <span class="count" data="5502">0</span>
+                            억
+                        </div>
+                    </div>
+                    <div class="numinfo">
+                        <p>
+                            영업이익
+                            <br/>
+                            (2020년 기준)
+                        </p>
+                        <div>
+                            <span class="count" data="775">0</span>
+                            억
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="output">
+                <a href="#" class="outputbox">
+                    <p class="op-main">초산</p>
+                    <img src="images/pdt_ic01.png" alt="초산" />
+                    <p class="op-big">650,000</p>
+                    <p>(연간생산량/톤)</p>
+                    <p class="plus-btn"></p>
+                </a>
+                <a href="#" class="outputbox">
+                    <p class="op-main">VAM(초산비닐)</p>
+                    <img src="images/pdt_ic02.png" alt="초산비닐" />
+                    <p class="op-big">400,000</p>
+                    <p>(연간생산량/톤)</p>
+                    <p class="plus-btn"></p>
+                </a>
+                <a href="#" class="outputbox">
+                    <p class="op-main">수소</p>
+                    <img src="images/pdt_ic03.png" alt="수소" />
+                    <p class="op-big">239,000</p>
+                    <p>(연간생산량/KNm3)</p>
+                    <p class="plus-btn"></p>
+                </a>
+            </article>
+            <article id="hse-sus">
+                <div>
+                    <p class="hse-1">HSE 지속가능경영</p>
+                    <p class="hse-2">
+                        롯데이네오스화학은 건강(H), 안전(S), 환경(E) 분야를 경영 활동의 핵심 요소로 지정하고 모든 임직원이 최우선으로 실천하고 있습니다
+                    </p>
+                </div>
+                <div>
+                    <p class="hse-main hm">LOTTE INEOS CHEMICAL</p>
+                    <p class="hs">
+                        나 자신을 위한 건강, 후손을 위한 환경, 우리를 위한 안전을 통해<br/> 100년의 역사를 새로 쓰는 롯데이네오스화학의 지속가능경영
+                    </p>
+                </div>
+                <div class="hse-box1 hb">
+                    <p class="hse-main">Health</p>
+                    <p class="hse-1">건강경영</p>
+                    <p class="plus-btn2"></p>
+                </div>
+                <div class="hse-box2 hb">
+                    <p class="hse-main">Safety</p>
+                    <p class="hse-1">안전경영</p>
+                    <p class="plus-btn2"></p>
+                </div>
+                <div class="hse-box3 hb">
+                    <p class="hse-main">Environment</p>
+                    <p class="hse-1">환경경영</p>
+                    <p class="plus-btn2"></p>
+                </div>
+            </article>
+            <h2>홍보센터</h2>
+            <p class="p-2">롯데이네오스화학은 열린 소통을 기반으로 항상 고객과 소통하고 있습니다</p>
+                
+            <article id="pr">
+                <a href="#" class="prbox">
+                    <p class="pr-main">정신건강센터 상담원 심리소진 예방 업무협약</p>
+                    <p class="pr-cont multiline">
+                        롯데이네오스화학은 24일 울산시, 울산광역정신건강복지센터와 상담원 심리소진 예방을 위한 업무협약을 체결했다.협약은 지역사회 상담원 대상으로 정신건강 힐링프로그램 등 지원을 통해 상담원들의 정신건강 증진에 기여해
+                        궁극적으로 지역사회에서 생명의 소중함을 일깨우고, 자살예방 문화를 조성하기 위해 실시됐다.
+                    </p>
+                    <p class="pr-date">2021.06.29</p>
+                </a>
+                <a href="#" class="prbox">
+                    <p class="pr-main">김용석 대표이사 '어린이 교통안전 릴레이 챌린지' 참여</p>
+                    <p class="pr-cont multiline">
+                        2021년 06월 01일(화) 김용석 대표이사가 '어린이 교통안전 릴레이 챌린지' 에 동참했다.
+                        태광산업 정찬식 대표이사의 추천을 받아 챌린지에 참여한 김용석 대표이사는
+
+                        "이번 캠페인을 통해 우리 사회의 미래인 어린이를 안전하게 보호할 수 있는 교통 문화가 정착하길 바란다"고 말하며,
+                    </p>
+                    <p class="pr-date">2021.06.11</p>
+                </a>
+                <a href="#" class="prbox">
+                    <p class="pr-main">신동빈 회장 방문</p>
+                    <p class="pr-cont multiline">
+                        2020년 11월 19일(목) 울산지역 현장경영에 나선 신동빈 회장이 울산공장을 방문하였다.<br/><br/>
+                        공장 방문 일정은 코로나19 방역 지침에 따라 체온 측정과 손 소독 후
+                        본관 2층 상황실에서 회사 소개 및 현황보고를 시작으로 진행되었다.
+                    </p>
+                    <p class="pr-date">2021.01.11</p>
+                </a>
+            </article>
+            <article id="linkboxsec">
+                <div class="link-box1" >
+                    <p class="linkbar"></p>
+                    <p class="link-main">역사관</p>
+                    <p class="link-cont">32년간의 롯데이네오스화학의 역사</p>
+                    <button class="link-btn" type="button">자세히보기</button>
+                    <button class="link-btn" type="button">역대 경영진</button>
+                </div>
+                <div class="link-box2 ">
+                    <p class="linkbar2"></p>
+                    <p class="link-main">회사 홍보영상</p>
+                    <p class="link-cont">30년을 넘어 100년을 도약합니다.</p>
+                    <button class="link-btn" type="button">홍보 동영상 보기</button>
+                </div>
+                <div class="link-box3">
+                    <p class="linkbar2"></p>
+                    <p class="link-main">롯데이네오스화학 30년사</p>
+                    <p class="link-cont">회사 홍보 이북 보기</p>
+                    <button class="link-btn" type="button">PDF보기</button>
+                </div>
+            </article>
+            <div class="invest-box">
+                <h4>공시정보</h4>
+                <p>고객과 함께<b>새로운 가치</b>와<br/><b>이윤</b>을<b>창출</b>합니다.</p>
+                <a class="ivest-link" href="#">바로가기</a>
+            </div>
+            <div id="peple-sec">
+                <img src="images/people.png" alt="PEPLE" />
+                <h2>LOTTE INEOS<br/>PEOPLE</h2>
+                <p>롯데이네오스화학과 함께 할 핵심가치를 보유하고<br/>비전 지향적인 글로벌 인재를 찾습니다</p>
+            </div>
+            <div id="peple-list">
+                <div class="of-auto of1">
+                    <a href="#" class="peple-box float-left">
+                        <p class="p-main">인재상</p>
+                        <p class="p-cont">세계 속에 우뚝 선 아름다운 롯데의 꿈에 동참할 젊은이를 초대합니다.</p>
+                        <p class="p-link">VIEW DETAIL</p>
+                    </a>
+                    <a href="#" class="peple-box float-left">
+                        <p class="p-main">인사제도</p>
+                        <p class="p-cont">공정하고 투명한 심사기준으로 업무 수행 능력에 따른 평가제도</p>
+                        <p class="p-link">VIEW DETAIL</p>
+                    </a>
+                </div> 
+                <div class="of-auto of2">
+                    <a href="#" class="peple-box float-left">
+                        <p class="p-main">복리후생</p>
+                        <p class="p-cont">본인과 가족의 건강, 자녀의 교육과 노후까지 함께 지원하고 고민합니다.</p>
+                        <p class="p-link">VIEW DETAIL</p>
+                    </a>
+                    <a href="#" class="peple-box float-left">
+                        <p class="p-main">채용안내</p>
+                        <p class="p-cont">롯데이네오스화학에서 글로벌 인재로 거듭날 인재를 기다리고 있습니다.</p>
+                        <p class="p-link">VIEW DETAIL</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="foot-top">
+                <div class="foot-linkbox">
+                    <a href="#" class="foot-link">사이트맵</a>
+                    <a href="#" class="foot-link">개인정보처리방침</a>
+                    <a href="#" class="foot-link">이메일무단수집거부</a>
+                    <a href="#" class="foot-link">사이버신문고</a>
+                </div>
+                <div class="family">
+                    <select class="fambtn" title="패밀리 사이트">
+                        <option value="">LOTTE Family</option>
+                        <option value="http://www.lotteconf.co.kr/">롯데칠성음료(음료BG)</option>
+                        <option value="http://mall.lottechilsung.co.kr/index.html">롯데칠성음료(주류BG)</option>
+                        <option value="http://www.lotteliquor.com/">롯데푸드</option>
+                        <option value="http://store.lotteshopping.com/handler/Main-Start">롯데백화점</option>
+                        <option value="http://company.lottemart.com/bc/main.do">롯데마트</option>
+                        <option value="http://www.lottesuper.co.kr/handler/Index-Start">롯데슈퍼</option>
+                        <option value="http://www.7-eleven.co.kr/">코리아세븐</option>
+                        <option value="http://www.e-himart.co.kr/">롯데하이마트</option>
+                        <option value="http://www.lottehomeshopping.com/">롯데홈쇼핑</option>
+                        <option value="http://www.lotte.com">롯데쇼핑e커머스</option>
+                        <option value="http://www.lohbs.co.kr/index.jsp">롯데롭스</option>
+                        <option value="http://www.lottecinema.co.kr/LCHS/index.aspx">롯데시네마</option>
+                        <option value="http://www.uniqlo.kr/">FRL코리아</option>
+                        <option value="http://www.lottecon.co.kr/">롯데건설</option>
+                        <option value="http://www.lottecm.com">롯데건설 CM사업본부</option>
+                        <option value="https://www.lotteglogis.com/">롯데글로벌로지스</option>
+                        <option value="http://www.lottelem.co.kr/">롯데기공</option>
+                        <option value="https://www.lotterentacar.net/kor/main/index.do">롯데렌탈</option>
+                        <option value="http://www.lottemembers.com/">롯데멤버스</option>
+                        <option value="http://kr.lottedfs.com/main">롯데면세점</option>
+                        <option value="http://kr.lottedfs.com/branchGuide/5/intro">롯데면세점부산</option>
+                        <option value="http://kr.lottedfs.com/branchGuide/6/intro">롯데면세점제주</option>
+                        <option value="http://www.lottepnd.com/main.do">롯데물산</option>
+                        <option value="http://www.lottemuseum.com">롯데뮤지엄</option>
+                        <option value="http://www.lotteineos.com/">롯데이네오스화학</option>
+                        <option value="http://csv.lotte.co.kr">롯데사회공헌사이트</option>
+                        <option value="http://www.lotteintl.com/eng/index.asp">롯데상사</option>
+                        <option value="http://www.skyhill.co.kr/html/main/main.jsp">롯데스카이힐C.C.</option>
+                        <option value="http://www.asahibeerk.com/">롯데아사히주류</option>
+                        <option value="http://www.lotteal.co.kr/">롯데알미늄</option>
+                        <option value="http://www.lottemcc.com/">롯데엠시시</option>
+                        <option value="http://www.lotteworld.com/gate.html">롯데월드</option>
+                        <option value="https://www.lottelmsc.com/">롯데유통사업본부</option>
+                        <option value="http://www.lotteacademy.co.kr/">롯데인재개발원</option>
+                        <option value="http://www.lottedevelop.com/">롯데자산개발</option>
+                        <option value="http://www.giantsclub.com/html/">롯데자이언츠</option>
+                        <option value="http://www.lottefinechem.com/">롯데정밀화학</option>
+                        <option value="http://www.ldcc.co.kr/">롯데정보통신</option>
+                        <option value="http://www.lottejtb.com/">롯데제이티비</option>
+                        <option value="http://www.lotternd.com/KOR/">롯데중앙연구소</option>
+                        <option value="http://www.lottegrs.com">롯데지알에스</option>
+                        <option value="http://job.lotte.co.kr">롯데채용사이트</option>
+                        <option value="http://www.lottecap.com/">롯데캐피탈</option>
+                        <option value="http://www.lottechem.com/contents/main/main.asp">롯데케미칼</option>
+                        <option value="http://www.lotteconcerthall.com/">롯데콘서트홀</option>
+                        <option value="http://www.lottehotel.com/global/ko/">롯데호텔</option>
+                        <option value="https://www.daehong.com/">대흥기획</option>
+                        <option value="http://www.lottehotel.com/busan/ko/">부산롯데호텔</option>
+                        <option value="https://www.canon-bs.co.kr/main/">캐논코리아비즈니스솔루션</option>
+                        <option value="http://www.fujifilm.co.kr/main/">한국후지필름</option>
+                    </select>
+                </div>
+            </div>
+            <div class="foot-bot">
+                <div class="fimgbox">
+                    <img src="images/ft_logo.png" alt="LOGO" />
+                </div>    
+                <div class=ftxtbox>
+                    <p class="ftxt">
+                        울산 사업장 _
+                    </p> 
+                    <p class=ftxt2>울산광역시 울주군 청량읍 상개로 63-15 (우 44987)</p>
+                </div>
+                <div class=ftxtbox>
+                    <p class="ftxt">
+                        서울 사업장 _ 
+                    </p>
+                    <p class=ftxt2> 서울특별시 중구 을지로5길 26, 미래에셋센터원빌딩 서관 8층 (우 04539)
+                    </p>
+                </div>
+                <p class="copy">Copyright (C) 2020 LOTTE INEOS CHEMICAL CO.,LTD All right reserved.</p>
+            </div>
+        </footer>
+        
+        
+        
+        
+        
+        
+        
+        <script src="script/script.js"></script>
+        <script>
+            $(window).on("load", function(){
+                $("#splash").fadeOut();
+            });
+            
+            $(document).ready(function(){
+                $("#mainVisual").slick({
+                    fade: true,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    prevArrow: "<buuton type='botton' class='slick-prev'></button>",
+                    nextArrow: "<buuton type='botton' class='slick-next'></button>"
+                });
+                
+                // countchk 이란?
+                    // 각각의 .count마다 이렇게 이야기하자.
+                        // this의 위치 / 화면의높이 / 스크롤한값
+                        // this의 위치 - 화면의높이 < 스크롤한값
+                            // this의 data만큼 숫자가 점점 커지게.
+                    // 문서를 열었을때 countchk하자.
+                    // 문서를 스크롤할때마다 countchk하자.
+                
+                
+                function countchk(){
+                    $(".count").each(function(){
+                        var t = $(this);
+                        var offsetY = t.offset().top;
+                        var winH = $(window).height();
+                        var scr = $(document).scrollTop();
+                        var set = $(this).attr("set");
+                        if(offsetY - winH+100 < scr && set != "on"){
+                            $(this).attr("set","on");
+                            var start = 0;
+                            var final = t.attr("data");
+                            var counting = setInterval(function(){
+                                if(final <= 1000){
+                                    start++;
+                                }else if(final > 1000 && final <= 3000){
+                                    start += 2;
+                                }else if(final > 3000){
+                                    start += 7;
+                                }
+                                t.text(start.toString().replace(/\B(?=(\d{3})+(?!\d))/g,","));
+                                if(start == final){
+                                    clearInterval(counting);
+                                    t.text(start.toString().replace(/\B(?=(\d{3})+(?!\d))/g,","));
+                                }
+                            }, 50000/(final*final));
+                        }
+                    });
+                }
+                countchk();
+                $(document).scroll(function(){countchk();});
+            });
+            
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
